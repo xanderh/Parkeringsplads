@@ -8,6 +8,10 @@ namespace BusinessLogic
 {
     public class Car
     {
-
+        public string RegNr { get; set; }
+        public Car(string regNr)
+        {
+            RegNr = regNr;
+        }
     }
 }
